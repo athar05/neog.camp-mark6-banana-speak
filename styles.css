@@ -19,3 +19,48 @@ textarea {
     margin: 10px;
     border: 1px solid black;
 }
+
+body {
+    margin: 0;
+}
+
+.header {
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(240, 197, 51);
+}
+
+section h1 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+#btn-translate {
+    height: 8vh;
+    
+    width: 20vh;
+    border-radius: 10px;
+    margin: auto;
+    margin: 0 450px;
+    background-color: rgb(240, 197, 51);
+    border: 1px solid black;
+}
+
+.footer {
+    padding-top: 0.5rem;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(240, 197, 51);
+}
+
+#btn-translate:hover {
+    border: none;
+    font-weight: bold;
+    background-color: rgb(240, 186, 11);
+}
