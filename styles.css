@@ -24,9 +24,19 @@ body {
     margin: 0;
 }
 
+#txt-input{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#output-text{
+    margin:auto;
+    margin-bottom: 20px;
+}
+
 .header {
     margin: 0;
-    height: 100px;
+       height: 100px;
     width: 100%;
     background-color: rgb(240, 197, 51);
 }
@@ -42,21 +52,40 @@ h2 {
 
 #btn-translate {
     height: 8vh;
-    
+   display: block;
     width: 20vh;
     border-radius: 10px;
     margin: auto;
-    margin: 0 450px;
     background-color: rgb(240, 197, 51);
     border: 1px solid black;
 }
 
 .footer {
     padding-top: 0.5rem;
+    font-weight: bolder;
     text-align: center;
+    color: black;
     height: 100px;
     width: 100%;
     background-color: rgb(240, 197, 51);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
 
 #btn-translate:hover {
